@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/plusItem"
+        android:title="+" />
+    <item
+        android:id="@+id/minusItem"
+        android:title="-" />
+    <item
+        android:id="@+id/multipleItem"
+        android:title="*" />
+    <item
+        android:id="@+id/divideItem"
+        android:title="/" />
+</menu>

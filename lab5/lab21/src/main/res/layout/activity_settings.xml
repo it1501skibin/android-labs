@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvBackgroundColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Цвет фона" />
+
+    <RadioGroup
+        android:id="@+id/rgBackgroundColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/rbBackgroundWhite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Белый" />
+
+        <RadioButton
+            android:id="@+id/rbBackgroundBlue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Синий" />
+
+        <RadioButton
+            android:id="@+id/rbBackgroundGreen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Зеленый" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tvTextSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Размер шрифта" />
+
+    <RadioGroup
+        android:id="@+id/rgTextSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/rbTextSize14sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="14sp" />
+
+        <RadioButton
+            android:id="@+id/rbTextSize20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="20sp" />
+
+        <RadioButton
+            android:id="@+id/rbTextSize25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="25sp" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tvActivityTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Заголовок активности" />
+
+    <EditText
+        android:id="@+id/etActivityTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Применить" />
+</LinearLayout>
